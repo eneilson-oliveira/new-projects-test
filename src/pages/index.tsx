@@ -19,7 +19,8 @@ export default function Home() {
 
         <div className='pb-1 bg-nei-gradient self-stretch rounded-lg mt-8 overflow-hidden'>
           <div className=' bg-[#2A2634] px-8 py-6 flex justify-between items-center'>
-            <Link href='/form-student' className='py-3 px-4 text-yellow-400 bg-violet-500 rounded' >Estudar</Link>
+            <Link href='/cadastrar-alunos' className='py-3 px-4 text-yellow-400 bg-violet-500 rounded'>Alunos</Link>
+            <Link href='/form-cursos' className='py-3 px-4 text-yellow-400 bg-violet-500 rounded' >Cursos</Link>
             <Link href='/form-teacher' className='py-3 px-3 text-violet-400 bg-yellow-300 rounded '>Dar Aula</Link>
           
           </div>
